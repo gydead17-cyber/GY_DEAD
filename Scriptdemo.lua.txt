@@ -78,12 +78,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab1o, {
-     Name = "banana fake",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaVN/Real_AnhKhoa_2279/refs/heads/main/Main-BloxFruitsNX.lua"))()
-  end
-  })
+  
   
