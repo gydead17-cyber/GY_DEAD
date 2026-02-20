@@ -36,7 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- BUTTON
         AddButton(Tab1o, {
-     Name = "nana",
+     Name = "Gy_HieRus",
     Callback = function()
 	  getgenv().ScriptTitle = "Gy_HieRus"
 getgenv().ScriptSubTitle = "Free key"
@@ -61,9 +61,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs
   })
   
   AddButton(Tab1o, {
-     Name = "QuantumOnyx",
+     Name = "Nana cuti",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
   end
   })
   
@@ -112,5 +112,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hhl29042008-ops/scrip
   end
   })
    
-  
-  
+    AddButton(Tab1o, {
+     Name = "Tiro hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NTTLOL/Tiro-Hub/refs/heads/main/TiroDel.lua.txt"))()
+  end
+  })
