@@ -36,7 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- BUTTON
         AddButton(Tab1o, {
-     Name = "nana lỏ",
+     Name = "nana",
     Callback = function()
 	  getgenv().ScriptTitle = "Gy_HieRus"
 getgenv().ScriptSubTitle = "Free key"
@@ -46,11 +46,17 @@ getgenv().ScriptAuthorSubTitle = "Hieu"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
   end
   })
-    
-    AddButton(Tab1o, {
-     Name = "nana lỏ",
+
+  AddButton(Tab1o, {
+     Name = "QuantumOnyx",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "trẩu v9",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/traurobloxv9.lua"))()
   end
   })
   
